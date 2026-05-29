@@ -55,6 +55,11 @@ Colours:
 | 47 | Paper | 7 (White) |
 | 49 | Paper | 7 (White)  (Default)|
 
+EG:
+  \<ESC>[21;40;37m
+ Bold, Paper 0 ink 7
+  
+
 # Clear block: \<ESC>[xJ
 | X | Meaning |
 | --- | --- |
