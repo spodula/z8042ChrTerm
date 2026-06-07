@@ -14,7 +14,6 @@ org $8000
     ld de,dummy
     call PRINTSTRING
 
-
 MAINLOOP:
     call GETNEXTCHAR
     cp $00

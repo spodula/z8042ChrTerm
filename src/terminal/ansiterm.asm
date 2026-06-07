@@ -894,13 +894,13 @@ ANSITERM_RESTORE_CURSOR:            ;Copy the cursor store back to the current l
     JP PD_SET_ATTR_END
 ;******************************************************************************
 ANSITERM_SCROLL_UP:
-    LD C,(IX+4)
+    LD A,(IX+4)
     CALL SCROLL_UP
     DEC (IX+6)
     JP PD_SET_ATTR_END
 ;******************************************************************************
 ANSITERM_SCROLL_DOWN:
-    LD C,(IX+4)
+    LD A,(IX+4)
     CALL SCROLL_DOWN
     INC (IX+6)
     JP PD_SET_ATTR_END

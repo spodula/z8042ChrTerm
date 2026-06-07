@@ -1,0 +1,9 @@
+new DSK /media/graham/work/dev/z80/Projects/terminal/test/test1/test1.dsk
+
+add /media/graham/work/dev/z80/Projects/terminal/test/test1/test1.bin test1.bin code codeload=32768
+add /media/graham/work/dev/z80/Projects/terminal/test/test1/terminal.o terminal.o code codeload=61440
+add /media/graham/work/dev/z80/Projects/terminal/test/test1/disk.bas disk text line=1
+ 
+
+
+cat

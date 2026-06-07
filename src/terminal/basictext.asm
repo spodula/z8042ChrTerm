@@ -227,6 +227,7 @@ DC_BELL:
 DC_SC_UP:
     CALL DC_UndoCurrentCursor
     DEC (IX+6)
+    LD A,(IX+4)
     JP SCROLL_UP
 
 include "terminal/scroll.asm"
